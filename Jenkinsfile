@@ -15,6 +15,7 @@ stage('Deploy') {
 steps {
 echo 'Deploying....'
 }
+}
 stage('Release') {
 steps {
 echo 'Releasing....'
@@ -22,3 +23,4 @@ echo 'Releasing....'
 }
 }
 }
+
